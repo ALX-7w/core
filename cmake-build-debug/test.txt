@@ -1,0 +1,8 @@
+total 160
+-rw-r--r--   1 arnaudlecomte  staff  43061 Feb  8 15:03 CMakeCache.txt
+drwxr-xr-x  14 arnaudlecomte  staff    448 Feb  8 17:56 CMakeFiles
+-rw-r--r--   1 arnaudlecomte  staff   5142 Feb  8 15:04 Makefile
+-rw-r--r--   1 arnaudlecomte  staff   1434 Feb  8 15:03 cmake_install.cmake
+-rwxr-xr-x   1 arnaudlecomte  staff  12860 Feb  8 17:56 core
+-rw-r--r--   1 arnaudlecomte  staff   6285 Feb  8 15:04 core.cbp
+-rw-r--r--   1 arnaudlecomte  staff      0 Feb  8 17:56 test.txt

@@ -7,6 +7,10 @@
 #IncludeRegexTransform: 
 
 /Users/arnaudlecomte/Documents/Dev/group/ALX-7w/core/src/main.cpp
+fstream
+-
+cstdlib
+-
 iostream
 -
 
