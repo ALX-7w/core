@@ -43,10 +43,10 @@ RM = /Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /Users/arnaudlecomte/Documents/Dev/group/ALX-7w/core
+CMAKE_SOURCE_DIR = /Users/antoninarberet/Documents/Alex/core
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /Users/arnaudlecomte/Documents/Dev/group/ALX-7w/core/cmake-build-debug
+CMAKE_BINARY_DIR = /Users/antoninarberet/Documents/Alex/core/cmake-build-debug
 
 # Include any dependencies generated for this target.
 include CMakeFiles/core.dir/depend.make
@@ -59,28 +59,43 @@ include CMakeFiles/core.dir/flags.make
 
 CMakeFiles/core.dir/src/main.cpp.o: CMakeFiles/core.dir/flags.make
 CMakeFiles/core.dir/src/main.cpp.o: ../src/main.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/arnaudlecomte/Documents/Dev/group/ALX-7w/core/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/core.dir/src/main.cpp.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/core.dir/src/main.cpp.o -c /Users/arnaudlecomte/Documents/Dev/group/ALX-7w/core/src/main.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/antoninarberet/Documents/Alex/core/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/core.dir/src/main.cpp.o"
+	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/core.dir/src/main.cpp.o -c /Users/antoninarberet/Documents/Alex/core/src/main.cpp
 
 CMakeFiles/core.dir/src/main.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/core.dir/src/main.cpp.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/arnaudlecomte/Documents/Dev/group/ALX-7w/core/src/main.cpp > CMakeFiles/core.dir/src/main.cpp.i
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/antoninarberet/Documents/Alex/core/src/main.cpp > CMakeFiles/core.dir/src/main.cpp.i
 
 CMakeFiles/core.dir/src/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/core.dir/src/main.cpp.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/arnaudlecomte/Documents/Dev/group/ALX-7w/core/src/main.cpp -o CMakeFiles/core.dir/src/main.cpp.s
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/antoninarberet/Documents/Alex/core/src/main.cpp -o CMakeFiles/core.dir/src/main.cpp.s
+
+CMakeFiles/core.dir/deps/parser/src/SimuStandardParser.cpp.o: CMakeFiles/core.dir/flags.make
+CMakeFiles/core.dir/deps/parser/src/SimuStandardParser.cpp.o: ../deps/parser/src/SimuStandardParser.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/antoninarberet/Documents/Alex/core/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/core.dir/deps/parser/src/SimuStandardParser.cpp.o"
+	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/core.dir/deps/parser/src/SimuStandardParser.cpp.o -c /Users/antoninarberet/Documents/Alex/core/deps/parser/src/SimuStandardParser.cpp
+
+CMakeFiles/core.dir/deps/parser/src/SimuStandardParser.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/core.dir/deps/parser/src/SimuStandardParser.cpp.i"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/antoninarberet/Documents/Alex/core/deps/parser/src/SimuStandardParser.cpp > CMakeFiles/core.dir/deps/parser/src/SimuStandardParser.cpp.i
+
+CMakeFiles/core.dir/deps/parser/src/SimuStandardParser.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/core.dir/deps/parser/src/SimuStandardParser.cpp.s"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/antoninarberet/Documents/Alex/core/deps/parser/src/SimuStandardParser.cpp -o CMakeFiles/core.dir/deps/parser/src/SimuStandardParser.cpp.s
 
 # Object files for target core
 core_OBJECTS = \
-"CMakeFiles/core.dir/src/main.cpp.o"
+"CMakeFiles/core.dir/src/main.cpp.o" \
+"CMakeFiles/core.dir/deps/parser/src/SimuStandardParser.cpp.o"
 
 # External object files for target core
 core_EXTERNAL_OBJECTS =
 
 core: CMakeFiles/core.dir/src/main.cpp.o
+core: CMakeFiles/core.dir/deps/parser/src/SimuStandardParser.cpp.o
 core: CMakeFiles/core.dir/build.make
 core: CMakeFiles/core.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/arnaudlecomte/Documents/Dev/group/ALX-7w/core/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable core"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/antoninarberet/Documents/Alex/core/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX executable core"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/core.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -93,6 +108,6 @@ CMakeFiles/core.dir/clean:
 .PHONY : CMakeFiles/core.dir/clean
 
 CMakeFiles/core.dir/depend:
-	cd /Users/arnaudlecomte/Documents/Dev/group/ALX-7w/core/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/arnaudlecomte/Documents/Dev/group/ALX-7w/core /Users/arnaudlecomte/Documents/Dev/group/ALX-7w/core /Users/arnaudlecomte/Documents/Dev/group/ALX-7w/core/cmake-build-debug /Users/arnaudlecomte/Documents/Dev/group/ALX-7w/core/cmake-build-debug /Users/arnaudlecomte/Documents/Dev/group/ALX-7w/core/cmake-build-debug/CMakeFiles/core.dir/DependInfo.cmake --color=$(COLOR)
+	cd /Users/antoninarberet/Documents/Alex/core/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/antoninarberet/Documents/Alex/core /Users/antoninarberet/Documents/Alex/core /Users/antoninarberet/Documents/Alex/core/cmake-build-debug /Users/antoninarberet/Documents/Alex/core/cmake-build-debug /Users/antoninarberet/Documents/Alex/core/cmake-build-debug/CMakeFiles/core.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/core.dir/depend
 

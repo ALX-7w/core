@@ -1,4 +1,5 @@
 file(REMOVE_RECURSE
+  "CMakeFiles/core.dir/deps/parser/src/SimuStandardParser.cpp.o"
   "CMakeFiles/core.dir/src/main.cpp.o"
   "core"
   "core.pdb"

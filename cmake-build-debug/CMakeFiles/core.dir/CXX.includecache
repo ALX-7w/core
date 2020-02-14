@@ -6,11 +6,21 @@
 
 #IncludeRegexTransform: 
 
-/Users/arnaudlecomte/Documents/Dev/group/ALX-7w/core/src/main.cpp
-fstream
--
-cstdlib
+/Users/antoninarberet/Documents/Alex/core/deps/parser/src/IGameTurn.h
+
+/Users/antoninarberet/Documents/Alex/core/deps/parser/src/SimuStandardParser.cpp
+SimuStandardParser.h
+/Users/antoninarberet/Documents/Alex/core/deps/parser/src/SimuStandardParser.h
+
+/Users/antoninarberet/Documents/Alex/core/deps/parser/src/SimuStandardParser.h
+IGameTurn.h
+/Users/antoninarberet/Documents/Alex/core/deps/parser/src/IGameTurn.h
+string
 -
 iostream
+-
+stdexcept
+-
+stdio.h
 -
 

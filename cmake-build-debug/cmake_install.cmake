@@ -1,4 +1,4 @@
-# Install script for directory: /Users/arnaudlecomte/Documents/Dev/group/ALX-7w/core
+# Install script for directory: /Users/antoninarberet/Documents/Alex/core
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -40,5 +40,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/Users/arnaudlecomte/Documents/Dev/group/ALX-7w/core/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/Users/antoninarberet/Documents/Alex/core/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

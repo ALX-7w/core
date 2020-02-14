@@ -48,10 +48,10 @@ RM = /Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /Users/arnaudlecomte/Documents/Dev/group/ALX-7w/core
+CMAKE_SOURCE_DIR = /Users/antoninarberet/Documents/Alex/core
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /Users/arnaudlecomte/Documents/Dev/group/ALX-7w/core/cmake-build-debug
+CMAKE_BINARY_DIR = /Users/antoninarberet/Documents/Alex/core/cmake-build-debug
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -80,9 +80,9 @@ edit_cache/fast: edit_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/arnaudlecomte/Documents/Dev/group/ALX-7w/core/cmake-build-debug/CMakeFiles /Users/arnaudlecomte/Documents/Dev/group/ALX-7w/core/cmake-build-debug/CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/antoninarberet/Documents/Alex/core/cmake-build-debug/CMakeFiles /Users/antoninarberet/Documents/Alex/core/cmake-build-debug/CMakeFiles/progress.marks
 	$(MAKE) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/arnaudlecomte/Documents/Dev/group/ALX-7w/core/cmake-build-debug/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/antoninarberet/Documents/Alex/core/cmake-build-debug/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -123,6 +123,33 @@ core/fast:
 	$(MAKE) -f CMakeFiles/core.dir/build.make CMakeFiles/core.dir/build
 .PHONY : core/fast
 
+deps/parser/src/SimuStandardParser.o: deps/parser/src/SimuStandardParser.cpp.o
+
+.PHONY : deps/parser/src/SimuStandardParser.o
+
+# target to build an object file
+deps/parser/src/SimuStandardParser.cpp.o:
+	$(MAKE) -f CMakeFiles/core.dir/build.make CMakeFiles/core.dir/deps/parser/src/SimuStandardParser.cpp.o
+.PHONY : deps/parser/src/SimuStandardParser.cpp.o
+
+deps/parser/src/SimuStandardParser.i: deps/parser/src/SimuStandardParser.cpp.i
+
+.PHONY : deps/parser/src/SimuStandardParser.i
+
+# target to preprocess a source file
+deps/parser/src/SimuStandardParser.cpp.i:
+	$(MAKE) -f CMakeFiles/core.dir/build.make CMakeFiles/core.dir/deps/parser/src/SimuStandardParser.cpp.i
+.PHONY : deps/parser/src/SimuStandardParser.cpp.i
+
+deps/parser/src/SimuStandardParser.s: deps/parser/src/SimuStandardParser.cpp.s
+
+.PHONY : deps/parser/src/SimuStandardParser.s
+
+# target to generate assembly for a file
+deps/parser/src/SimuStandardParser.cpp.s:
+	$(MAKE) -f CMakeFiles/core.dir/build.make CMakeFiles/core.dir/deps/parser/src/SimuStandardParser.cpp.s
+.PHONY : deps/parser/src/SimuStandardParser.cpp.s
+
 src/main.o: src/main.cpp.o
 
 .PHONY : src/main.o
@@ -159,6 +186,9 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
 	@echo "... core"
+	@echo "... deps/parser/src/SimuStandardParser.o"
+	@echo "... deps/parser/src/SimuStandardParser.i"
+	@echo "... deps/parser/src/SimuStandardParser.s"
 	@echo "... src/main.o"
 	@echo "... src/main.i"
 	@echo "... src/main.s"
