@@ -1,3 +1,6 @@
 [submodule "deps/7-Wonders-Simulator"]
 	path = deps/7-Wonders-Simulator
 	url = https://github.com/ALX-7w/7-Wonders-Simulator.git
+[submodule "deps/parser"]
+	path = deps/parser
+	url = https://github.com/ALX-7w/parser.git
